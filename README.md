@@ -1,20 +1,7 @@
 SRP\*400: Quantum computing senior project
 ==========================================
 
-Evan Chandran & Maxwell Wang
-Phillips Exeter Academy ‘20
-
-This winter we worked on a senior project in quantum computing, seeking to learn some of the theory and implications of quantum computation as well as run code on a real quantum computer. We began by studying quantum bits, gates, and tensor products using David McMahon’s text Quantum Computing Explained. To practice manipulating quantum bits, we used the Quantum Virtual Machine (QVM) and pyQuil, Rigetti’s Python library for quantum programming. We simulated several quantum states such as the Greenberger–Horne–Zeilinger (GHZ) state, a generalized version of a simple entangled state. We also investigated the Deutsch-Jozsa algorithm, one of the first algorithms created to demonstrate quantum advantage over a classical computer. In the last several weeks of our project, we used Rigetti’s Quantum Cloud Services (QCS) platform to run code on a real Quantum Processing Unit (QPU), and documented our results.
-
-
-References:
-
-McMahon, David. Quantum Computing Explained. John Wiley & Sons, 2007.
-
-David Deutsch and Richard Jozsa. (1997) Rapid solution of problems by quantum computation. Proc. R. Soc. Lond. A 439:553–558. http://doi.org/10.1098/rspa.1992.0167
-
-Daniel M. Greenberger, Michael A. Horne, and Anton Zeilinger. Going Beyond Bell’s Theorem, 2007. arXiv:0712.0921 [quant-ph]
-
+This winter ('20) at Phillips Exeter Academy we worked on a senior project in quantum computing, seeking to learn some of the theory and implications of quantum computation as well as run code on a real quantum computer. We began by studying quantum bits, gates, and tensor products using David McMahon’s text Quantum Computing Explained. To practice manipulating quantum bits, we used the Quantum Virtual Machine (QVM) and pyQuil, Rigetti’s Python library for quantum programming. We simulated several quantum states such as the Greenberger–Horne–Zeilinger (GHZ) state, a generalized version of a simple entangled state. We also investigated the Deutsch-Jozsa algorithm, one of the first algorithms created to demonstrate quantum advantage over a classical computer. In the last several weeks of our project, we used Rigetti’s Quantum Cloud Services (QCS) platform to run code on a real Quantum Processing Unit (QPU), and documented our results.
 
 by [Evan Chandran](https://github.com/ecchandran) and [Maxwell Wang](https://github.com/maxzwang)
 
@@ -62,3 +49,11 @@ more, check out the [rigetti/forest-notebook][forest-notebook-repo] repository.
 [pyquil]: https://github.com/rigetti/pyquil
 [quilc]: https://github.com/rigetti/quilc
 [qvm]: https://github.com/rigetti/qvm
+
+## References
+
+McMahon, David. Quantum Computing Explained. John Wiley & Sons, 2007.
+
+David Deutsch and Richard Jozsa. (1997) Rapid solution of problems by quantum computation. Proc. R. Soc. Lond. A 439:553–558. http://doi.org/10.1098/rspa.1992.0167
+
+Daniel M. Greenberger, Michael A. Horne, and Anton Zeilinger. Going Beyond Bell’s Theorem, 2007. arXiv:0712.0921 [quant-ph]
